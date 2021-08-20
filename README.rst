@@ -51,3 +51,7 @@ nudging is applied at every grid box.
 More detailed information on how to setup a nudged simulation can be found in the 
 source code `nudging.F90 <https://github.com/E3SM-Project/E3SM/blob/master/components/eam/src/physics/cam/nudging.F90>`_. 
 
+
+Reference
+--------------------------------------------------------------------------------
+Sun, J., Zhang, K., Wan, H., Ma, P.-L., Tang, Q., Zhang, S. (2019), Impact of nudging strategy on the climate representativeness and hindcast skill of constrained EAMv1 simulations, Journal of Advances in Modeling Earth Systems, doi: 10.1029/2019MS001831.
