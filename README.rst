@@ -12,8 +12,8 @@ The example shown below switches on nudging for horizontal winds ::
   Nudge_Model          = .True.
   Nudge_Path           = '${path_nudging_data}'
   Nudge_File_Template  = '${casename}.h1.%y-%m-%d-00000.nc'
-  Nudge_Times_Per_Day  = 4  !! nudging input data frequency
-  Model_Times_Per_Day  = 48 !! should not be larger than 48 if dtime = 1800s
+  Nudge_Times_Per_Day  = 4        !! nudging input data frequency
+  Model_Times_Per_Day  = 48       !! should not be larger than 48 if dtime = 1800s
   Nudge_Uprof          = 1
   Nudge_Ucoef          = 1.
   Nudge_Vprof          = 1
@@ -30,16 +30,16 @@ The example shown below switches on nudging for horizontal winds ::
   Nudge_End_Year       = 9999
   Nudge_End_Month      = 1
   Nudge_End_Day        = 1
-  Nudge_Vwin_Lindex    = 0.   !! activated only when Nudge_Xprof = 2 !! X = U, V, T 
-  Nudge_Vwin_Hindex    = 70.  !! activated only when Nudge_Xprof = 2 
-  Nudge_Vwin_Ldelta    = 0.1. !! activated only when Nudge_Xprof = 2 
-  Nudge_Vwin_Hdelta    = 0.1. !! activated only when Nudge_Xprof = 2 
-  Nudge_Vwin_lo        = 0.   !! activated only when Nudge_Xprof = 2 
-  Nudge_Vwin_hi        = 1.   !! activated only when Nudge_Xprof = 2 
-  Nudge_Method         = 'Linear'
-  Nudge_Tau            = 6.   !! relaxation time scale, unit: h 
-  Nudge_Loc_PhysOut    = .True. 
-  Nudge_File_Ntime     = 4
+  Nudge_Vwin_Lindex    = 0.       !! activated only when Nudge_Xprof = 2 !! X = U, V, T 
+  Nudge_Vwin_Hindex    = 70.      !! activated only when Nudge_Xprof = 2 
+  Nudge_Vwin_Ldelta    = 0.1.     !! activated only when Nudge_Xprof = 2 
+  Nudge_Vwin_Hdelta    = 0.1.     !! activated only when Nudge_Xprof = 2 
+  Nudge_Vwin_lo        = 0.       !! activated only when Nudge_Xprof = 2 
+  Nudge_Vwin_hi        = 1.       !! activated only when Nudge_Xprof = 2 
+  Nudge_Method         = 'Linear' !!  
+  Nudge_Tau            = 6.       !! relaxation time scale, unit: h 
+  Nudge_Loc_PhysOut    = .True.   !! nudging tendency calculated before radiation 
+  Nudge_File_Ntime     = 4        !! should be the same as Nudge_Times_Per_Day 
   Nudge_Allow_Missing_File = .False. 
 
  EOF
