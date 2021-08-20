@@ -54,4 +54,6 @@ source code `nudging.F90 <https://github.com/E3SM-Project/E3SM/blob/master/compo
 
 Reference
 --------------------------------------------------------------------------------
-Sun, J., Zhang, K., Wan, H., Ma, P.-L., Tang, Q., Zhang, S. (2019), Impact of nudging strategy on the climate representativeness and hindcast skill of constrained EAMv1 simulations, Journal of Advances in Modeling Earth Systems, doi: 10.1029/2019MS001831.
+Sun, J., Zhang, K., Wan, H., Ma, P.-L., Tang, Q., Zhang, S. (2019), Impact of nudging strategy on the climate representativeness and hindcast skill of constrained EAMv1 simulations, Journal of Advances in Modeling Earth Systems, `doi: 10.1029/2019MS001831  <https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019MS001831>`_.
+
+
