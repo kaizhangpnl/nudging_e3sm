@@ -2,6 +2,9 @@ How to configure a nudged simulation using E3SM
 =================================================
 
 
+Nudging configuration  
+------------------------------------------------------------
+
 The following variables need to be modified to activate nudging. 
 The example shown below switches on nudging for horizontal winds :: 
 
@@ -50,6 +53,23 @@ Only the horizontal winds are nudged, with a relaxation time scale of 6h. The
 nudging is applied at every grid box.  
 More detailed information on how to setup a nudged simulation can be found in the 
 source code `nudging.F90 <https://github.com/E3SM-Project/E3SM/blob/master/components/eam/src/physics/cam/nudging.F90>`_. 
+
+
+
+
+Creating nudging files from a baseline simulation 
+------------------------------------------------------------
+ 
+To nudge the model towards a baseline model simulation (e.g. E3SMv1), you will need to 
+run the reference model first and output U,V,T,Q,PS 6-hourly: :: 
+ 
+  cat <<EOF >> user_nl_cam
+     nhtfrq  = 0,-6
+     mfilt   = 1,1
+     fincl2  = ‘PS’,’U,’V’,’T’,’Q’,
+     avgflag_pertape(2) = 'I'
+  EOF
+
 
 
 Reference
