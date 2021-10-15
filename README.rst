@@ -17,7 +17,7 @@ The example shown below switches on nudging for horizontal winds ::
   Nudge_File_Template  = '${casename}.h1.%y-%m-%d-00000.nc'
   Nudge_Times_Per_Day  = 4        !! nudging input data frequency
   Model_Times_Per_Day  = 48       !! should not be larger than 48 if dtime = 1800s
-  Nudge_Uprof          = 1
+  Nudge_Uprof          = 1        !! 2 if nudging tendency has a vertical profile 
   Nudge_Ucoef          = 1.
   Nudge_Vprof          = 1
   Nudge_Vcoef          = 1.
