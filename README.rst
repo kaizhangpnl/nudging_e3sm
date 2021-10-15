@@ -42,7 +42,7 @@ The example shown below switches on nudging for horizontal winds ::
   Nudge_Method         = 'Linear' !!  
   Nudge_Tau            = 6.       !! relaxation time scale, unit: h 
   Nudge_Loc_PhysOut    = .True.   !! nudging tendency calculated before radiation 
-  Nudge_File_Ntime     = 4        !! should be the same as Nudge_Times_Per_Day 
+  Nudge_File_Ntime     = 4        !! should be the same as Nudge_Times_Per_Day or 1 (see code for details) 
   Nudge_Allow_Missing_File = .False. 
 
  EOF
