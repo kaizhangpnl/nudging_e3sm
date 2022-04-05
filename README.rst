@@ -87,11 +87,11 @@ References
 
 - Liu, Y., Zhang, K., Qian, Y., Wang, Y., Zou, Y., Song, Y., Wan, H., Liu, X., and Yang, X.-Q.: Investigation of short-term effective radiative forcing of fire aerosols over North America using nudged hindcast ensembles, Atmos. Chem. Phys., 18, 31–47, https://doi.org/10.5194/acp-18-31-2018, 2018. 
 
-- Lin, G., Wan, H., Zhang, K., Qian, Y. and Ghan, S.J., 2016. Can nudging be used to quantify model sensitivities in precipitation and cloud forcing?. Journal of Advances in Modeling Earth Systems, 8(3), pp.1073-1091. 
+- Lin, G., Wan, H., Zhang, K., Qian, Y., and Ghan, S. J. (2016), Can nudging be used to quantify model sensitivities in precipitation and cloud forcing?, J. Adv. Model. Earth Syst., 8, 1073– 1091, doi:10.1002/2016MS000659.
 
 - Kooperman, G.J., Pritchard, M.S., Ghan, S.J., Wang, M., Somerville, R.C. and Russell, L.M., 2012. Constraining the influence of natural variability to improve estimates of global aerosol indirect effects in a nudged version of the Community Atmosphere Model 5. Journal of Geophysical Research: Atmospheres, 117(D23). 
 
-- 
+- Kooperman, G. J., Pritchard, M. S., Ghan, S. J., Wang, M., Somerville, R. C. J., and Russell, L. M. (2012), Constraining the influence of natural variability to improve estimates of global aerosol indirect effects in a nudged version of the Community Atmosphere Model 5, J. Geophys. Res., 117, D23204, doi:10.1029/2012JD018588.
 
 
 
