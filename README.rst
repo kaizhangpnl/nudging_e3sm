@@ -76,4 +76,14 @@ Reference
 --------------------------------------------------------------------------------
 Sun, J., Zhang, K., Wan, H., Ma, P.-L., Tang, Q., Zhang, S. (2019), Impact of nudging strategy on the climate representativeness and hindcast skill of constrained EAMv1 simulations, Journal of Advances in Modeling Earth Systems, `doi: 10.1029/2019MS001831  <https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019MS001831>`_.
 
+Zhang, K., Wan, H., Liu, X., Ghan, S. J., Kooperman, G. J., Ma, P.-L., Rasch, P. J., Neubauer, D., and Lohmann, U. (2014): Technical Note: On the use of nudging for aerosol–climate model intercomparison studies, Atmos. Chem. Phys., 14, 8631–8645, `doi: 10.5194/acp-14-8631-2014  <https://doi.org/10.5194/acp-14-8631-2014>`_.
+
+Zhang, S., Zhang, K., Wan, H., and Sun, J.: Further improvement and evaluation of nudging in the E3SM Atmosphere Model version 1 (EAMv1), Geosci. Model Dev. Discuss. [preprint], https://doi.org/10.5194/gmd-2022-10, in review, 2022.
+
+
+
+
+
+
+
 
