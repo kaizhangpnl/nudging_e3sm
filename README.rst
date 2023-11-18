@@ -74,9 +74,7 @@ run the reference model first and output U,V,T,Q,PS 6-hourly: ::
 Creating nudging files from reanalysis 
 ------------------------------------------------------------
 
-Under construction ...  
-
-
+To generate nudging data for E3SM, it is necessary to horizontally and vertically remap reanalysis data onto the grid employed by the E3SM atmospheric model. The Community Earth System Model Version 2 (CESM2; https://ncar.github.io/CAM/doc/build/html/users_guide/ physics-modifications-via-the-namelist.html#nudging) provides a convenient tool for this. Topographical differences between the E3SM atmospheric model and the reanalysis model will be taken into account during the vertical interpolation. 
 
 Verification 
 ------------------------------------------------------------
