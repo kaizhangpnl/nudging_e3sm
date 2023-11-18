@@ -77,6 +77,15 @@ Creating nudging files from reanalysis
 Under construction ...  
 
 
+
+Verification 
+------------------------------------------------------------
+
+To verify whether nudging works, we often output 6-hourly model data for a whole month and calculate the anomaly (instantaneous – monthly mean). Then we compare the anomaly with that calculated from the reanalysis data and calculate the anomaly correlation. If the correlation is high (as shown by `Sun et al. (2019) <https://github.com/E3SM-Project/E3SM/blob/master/components/eam/src/physics/cam/nudging.F90>`_), it indicates nudging is effective.
+
+The purpose of most nudging applications is to constrain the large-scale circulation so that the model can capture the synoptic weather events, e.g., you should be able to see similar day-to-day variations in meterological fields between the nudged model and reanalysis.
+
+
 References 
 --------------------------------------------------------------------------------
 - Sun, J., Zhang, K., Wan, H., Ma, P.-L., Tang, Q., Zhang, S. (2019), Impact of nudging strategy on the climate representativeness and hindcast skill of constrained EAMv1 simulations, Journal of Advances in Modeling Earth Systems, `doi: 10.1029/2019MS001831  <https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019MS001831>`_.
