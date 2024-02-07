@@ -35,8 +35,8 @@ The example shown below switches on nudging for horizontal winds ::
   Nudge_End_Day        = 1
   Nudge_Vwin_Lindex    = 0.       !! activated only when Nudge_Xprof = 2 !! X = U, V, T 
   Nudge_Vwin_Hindex    = 70.      !! activated only when Nudge_Xprof = 2 
-  Nudge_Vwin_Ldelta    = 0.1.     !! activated only when Nudge_Xprof = 2 
-  Nudge_Vwin_Hdelta    = 0.1.     !! activated only when Nudge_Xprof = 2 
+  Nudge_Vwin_Ldelta    = 0.1      !! activated only when Nudge_Xprof = 2 
+  Nudge_Vwin_Hdelta    = 0.1      !! activated only when Nudge_Xprof = 2 
   Nudge_Vwin_lo        = 0.       !! activated only when Nudge_Xprof = 2 
   Nudge_Vwin_hi        = 1.       !! activated only when Nudge_Xprof = 2 
   Nudge_Method         = 'Linear' !!  
